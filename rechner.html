@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <title>ONLINE RECHNER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="rechner">
+        <input type="text" id="schrim" pattern="^[\d]+[\s+\-*/.\d]*" placeholder="(99+1)/2*(55-9)" autofocus>
+        <button type="reset" id="clear">C</button>
+        <button id="null" class="typing" onclick="appendToInput('0')">0</button>
+        <button id="eins" class="typing" onclick="appendToInput('1')">1</button>
+        <button id="zwei" class="typing" onclick="appendToInput('2')">2</button>
+        <button id="drei" class="typing" onclick="appendToInput('3')">3</button>
+        <button id="vier" class="typing" onclick="appendToInput('4')">4</button>
+        <button id="funf" class="typing" onclick="appendToInput('5')">5</button>
+        <button id="sechs" class="typing" onclick="appendToInput('6')">6</button>
+        <button id="sieben" class="typing" onclick="appendToInput('7')">7</button>
+        <button id="acht" class="typing" onclick="appendToInput('8')">8</button>
+        <button id="neun" class="typing" onclick="appendToInput('9')">9</button>
+        <button id="komma" class="typing" onclick="appendToInput('.')">.</button>
+        <button id="gleich">=</button>
+        <button id="bruch" class="typing" onclick="appendToInput('/')">/</button>
+        <button id="plus" class="typing" onclick="appendToInput('+')">+</button>
+        <button id="minus" class="typing" onclick="appendToInput('-')">-</button>
+        <button id="klammern1" class="typing" onclick="appendToInput('(')">(</button>
+        <button id="klammern2" class="typing" onclick="appendToInput(')')">)</button>
+        <button id="mal" class="typing" onclick="appendToInput('*')">*</button>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+body {
+    background-color: #f2bbf2;
+}
+
+div {
+    margin: auto;
+    height: 500px;
+    width: 300px;
+    padding: 20px 10px 20px 10px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px;
+    grid-gap: 10px;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 20px;
+    display: block;
+    border-bottom: 3px solid rgb(131, 246, 246);
+    border-radius: 8px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+input {
+    display: block;
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border-radius: 10px;
+    background-color: aqua;
+    color: black;
+    order: 1;
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+#gleich {
+    order: 20;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: rgb(47, 255, 89);
+    font-size: 40px;
+}
+
+#clear {
+    background-color: orange;
+    border-bottom-color: azure;
+    order: 2;
+}
+
+#klammern1 {
+    order: 3;
+}
+
+#klammern2 {
+    order: 4;
+}
+
+#bruch {
+    order: 5;
+}
+
+#sieben {
+    order: 6;
+}
+
+#acht {
+    order: 7;
+}
+
+#neun {
+    order: 8;
+}
+
+#mal {
+    order: 9;
+}
+
+#vier {
+    order: 10;
+}
+
+#funf {
+    order: 11;
+}
+
+#sechs {
+    order: 12;
+}
+
+#minus {
+    order: 13;
+}
+
+#eins {
+    order: 14;
+}
+
+#zwei {
+    order: 15;
+}
+
+#drei {
+    order: 16;
+}
+
+#plus {
+    order: 17;
+}
+
+#null {
+    order: 18;
+}
+
+#komma {
+    order: 19;
+}
